@@ -81,52 +81,57 @@ while ( myList[i] ){
 
 
 // Video 12 content
-//
-// alert ("You have 10 guesses. Guess 1-10")
-//
-// var answer = 3;
-// var guess;
-//
-// for (i=0; i<10; i++) {
-//       guess = prompt("What's your guess?")
-//       if (answer == guess) {
-//             alert("You guessed correctly");
-//             break;
-//       } else {
-//             guess = prompt("Please try again")
-//       }
-// }
+
+alert ("This is a real simple calculator")
+
+var firstNum;
+var secondNum;
+var calc;
+// var answer = firstNum + secondNum;
+
+
+firstNum = parseInt(prompt("What's your first number?"));
+secondNum = parseInt(prompt("what's your second number"));
+// console.log(firstNum + secondNum);
+function calcfunc(firstNum, secondNum) {
+  return firstNum + secondNum;
+}
+console.log(calcfunc);
+      // } else {
+      //       calc = prompt("Please try again")
+      // }
+
 
 // Video 13 content
-
-var name = "Maria";
-// Defines function
-function firstFunc() {
-      console.log("yo yo");
-      var name = "Roberto";
-      console.log("Name in function " + name);
-}
-// Runs function
-firstFunc();
-console.log(name);
-
-// Video 14 content
-
-var name = "Maria";
-// Defines function with one argument
-function firstFunc(arg) {
-      console.log(arg);
-      var name = "Roberto";
-      console.log("Name in function " + name);
-}
-// Defines a function with two arguments
-function secondFunc(greeting, name) {
-      var name = "Roberto";
-      console.log(greeting + " " + name);
-}
-// Runs function
-firstFunc("YO YO");
-firstFunc(name);
-firstFunc("yo");
-secondFunc("Mr", name);
-console.log(name);
+//
+// var name = "Maria";
+// // Defines function
+// function firstFunc() {
+//       console.log("yo yo");
+//       var name = "Roberto";
+//       console.log("Name in function " + name);
+// }
+// // Runs function
+// firstFunc();
+// console.log(name);
+//
+// // Video 14 content
+//
+// var name = "Maria";
+// // Defines function with one argument
+// function firstFunc(arg) {
+//       console.log(arg);
+//       var name = "Roberto";
+//       console.log("Name in function " + name);
+// }
+// // Defines a function with two arguments
+// function secondFunc(greeting, name) {
+//       var name = "Roberto";
+//       console.log(greeting + " " + name);
+// }
+// // Runs function
+// firstFunc("YO YO");
+// firstFunc(name);
+// firstFunc("yo");
+// secondFunc("Mr", name);
+// console.log(name);
